@@ -11,7 +11,7 @@ The original is a flat 2D scene in portrait. Money spawns in the middle and you 
 * CPU: after a random reaction delay (1.2-2.5 s Easy, 0.7-1.5 s Medium, 0.45-1.1 s Hard) the CPU hooks a new item, as long as it has fewer than 3/5/5 hooks in flight. Its hook is anchored to a virtual finger at the top of the screen, so it always drags money up into the blue vault, and it is never released: a hooked coin can no longer be scored red, you can only stall it or let it score blue.
 * Tearing a banknote: two fingers stretch it (the sprite stretches along the drag axis and springs back), but per the shipped maths it can only actually rip while the CPU's hook is on it, and nobody scores a torn banknote. See the notes below.
 * Assets: sprites and sounds are extracted from the game: coin, banknote and its two torn halves, vault, cat paw, circles, plus the `soldi` and `strappo` clips.
-* Run it from any static server, e.g. `python -m http.server 8765 --bind 127.0.0.1` in the repo root, then open `http://127.0.0.1:8765/web/rubasoldi/`.
+
 
 ### Remaining guesses and gaps:
 
