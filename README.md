@@ -21,3 +21,6 @@ The original is a flat 2D scene in portrait. Money spawns in the middle and you 
 * Particles: burst size, speed, lifetime and direction come from the serialized particle system, but the particle texture and its lifetime look are approximations.
 * Scoreboard and win screen: simple side badges and a plain overlay, since the shared in-game UI prefab was never extracted.
 * Hook drawing order follows the prefab sorting orders (line 75, finger dots 80/85, paw 100) rather than any runtime logic; the inactive `Base` circles under the play area are not drawn.
+
+<img width="428" height="854" alt="image" src="https://github.com/user-attachments/assets/cc15d000-d84e-462e-8373-e807cbf7ff07" />
+
